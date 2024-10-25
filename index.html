@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genes y Proteínas en el Ser Humano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="https://portalesmuli.s3.amazonaws.com/upzmg/original_images/logo_0.png" alt="Logo Universidad Politécnica de la Zona Metropolitana de Guadalajara" class="logo">
+        <h1>Genes y Proteínas Importantes en el Ser Humano</h1>
+    </header>
+    
+    <nav>
+        <a href="brca1.html">BRCA1 y BRCA2</a>
+        <a href="tp53.html">TP53</a>
+        <a href="apoe.html">APOE</a>
+        <a href="cftr.html">CFTR</a>
+        <a href="ins.html">INS (Insulina)</a>
+        <a href="hemoglobina.html">Hemoglobina</a>
+        <a href="actina-miosina.html">Actina y Miosina</a>
+        <a href="colageno.html">Colágeno</a>
+        <a href="albumina.html">Albumina</a>
+        <a href="anticuerpos.html">Anticuerpos</a>
+        <!-- Agrega enlaces adicionales para más genes y proteínas -->
+    </nav>
+
+    <section>
+        <h2>Bienvenido a la Exploración de Genes y Proteínas</h2>
+        <p>Haz clic en los enlaces para descubrir más detalles sobre los genes y proteínas más importantes en el cuerpo humano.</p>
+    </section>
+    <section id="busqueda">
+        <h2>Búsqueda Avanzada</h2>
+        <input type="text" id="searchInput" placeholder="Buscar genes o proteínas...">
+        <button onclick="buscar()">Buscar</button>
+        <p id="searchResult"></p>
+    </section>
+    <!-- Sección de Visualización de Datos en Gráficos -->
+    <section id="grafico">
+    <h2>Visualización de Datos en Gráficos</h2>
+    <canvas id="geneChart"></canvas>
+    </section>
+
+    <!-- Sección de Exportación de Información -->
+    <section id="exportar">
+    <h2>Exportar Información</h2>
+    <button onclick="exportar()">Exportar Datos de Genes</button>
+    </section>
+
+    <!-- Agrega el enlace a Chart.js para gráficos al final del archivo, antes de cerrar </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <footer>
+        <p>Isaac Ángel Carrillo Ruiz | 7° Cuatrimestre de Ingeniería en Biotecnología</p>
+        <p>Universidad Politécnica de la Zona Metropolitana de Guadalajara</p>
+    </footer>
+</body>
+</html>
